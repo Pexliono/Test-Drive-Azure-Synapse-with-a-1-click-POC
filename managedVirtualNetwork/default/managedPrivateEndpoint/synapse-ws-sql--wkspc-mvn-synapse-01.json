@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--wkspc-mvn-synapse-01",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/89816e5b-21a5-47b9-a2b5-5f6ea2a2e127/resourceGroups/mvn-synapse-01/providers/Microsoft.Synapse/workspaces/wkspc-mvn-synapse-01",
+		"groupId": "sql",
+		"fqdns": [
+			"wkspc-mvn-synapse-01.2afa0b56-a889-4d46-9360-205e9a226d2b.sql.azuresynapse.net"
+		]
+	}
+}

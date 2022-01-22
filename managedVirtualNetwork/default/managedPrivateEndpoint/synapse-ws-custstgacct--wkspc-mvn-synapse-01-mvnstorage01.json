@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--wkspc-mvn-synapse-01-mvnstorage01",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/89816e5b-21a5-47b9-a2b5-5f6ea2a2e127/resourceGroups/mvn-synapse-01/providers/Microsoft.Storage/storageAccounts/mvnstorage01",
+		"groupId": "dfs"
+	}
+}
