@@ -1,0 +1,16 @@
+{
+	"name": "KQL script 2",
+	"properties": {
+		"content": {
+			"query": "mylogs\n| take 1000\n",
+			"metadata": {
+				"language": "kql"
+			},
+			"currentConnection": {
+				"poolName": "adexsyn1click01",
+				"databaseName": "adex1clickdb"
+			}
+		},
+		"type": "KqlQuery"
+	}
+}
