@@ -1,0 +1,24 @@
+{
+	"name": "ConsumerGoods_chk",
+	"properties": {
+		"Name": "ConsumerGoods_chk",
+		"EntityType": "DATABASE",
+		"Description": "",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"ConsumerGoods\",\"Version\":\"0.1.0\"}}}",
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://dls1cpocfs1@1cm6rhf7i5bvxo4poc.dfs.core.windows.net/ConsumerGoods_chk",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "1cm6rhf7i5bvxo4pocws1-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}

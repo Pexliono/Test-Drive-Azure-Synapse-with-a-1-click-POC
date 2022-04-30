@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mlqvxyadcy",
+	"properties": {
+		"Name": "relationship-mlqvxyadcy",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "ConsumerGoods_chk"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Country",
+		"ToTableName": "ConsumerGoodsProduct",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "CountryId",
+				"ToColumnName": "PrimaryCountryOfOriginCountryId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Country.cdm.json/Country\",\"toEntity\":\"ConsumerGoodsProduct.cdm.json/ConsumerGoodsProduct\",\"joinPairs\":[{\"fromAttribute\":\"CountryId\",\"toAttribute\":\"PrimaryCountryOfOriginCountryId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}
